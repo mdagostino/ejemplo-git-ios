@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func tap(_ sender: Any) {
+        UIView.animate(withDuration: 3.0) { 
+            self.view.backgroundColor = UIColor.cyan
+        }
+    }
 
 }
 
